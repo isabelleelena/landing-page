@@ -3,12 +3,13 @@ body {
     flex-direction: column;
     font-family: "roboto", Arial, Helvetica, sans-serif;
     margin: 0px;
+    background-color:  #f2ffe4;
 }
 
 .header,
 .footer,
 .block-1 {
-    background-color: #1F2937;
+    background-color: #0a2c01;
 }
 
 .header {
@@ -22,7 +23,7 @@ body {
 .logo {
     font-size: 24px;
     font-weight: bold;
-    color: #F9FAF8;
+    color: #f2ffe4;
 }
 
 ul {
@@ -36,7 +37,7 @@ ul {
 
 li {
     list-style-type: none;
-    color: #E5E7EB;
+    color: #f2ffe4;
 }
 
 .block-1 {
@@ -61,24 +62,28 @@ li {
     display: flex;
     flex-direction: column;
     align-items: start;
-    gap: 10px;
+    gap: 16px;
     width: 600px;
     flex: initial;
 }
 
 h1,
+h2,
+h3,
 p {
     margin: 0px;
 }
 
 h1 {
-    color: #F9FAF8;
+    color: #f2ffe4;
     font-weight: 900;
     font-size: 48px;
 }
 
 .p1 {
-    color: #E5E7EB;
+    color: #f2ffe4;
+    font-size: 24px;
+    padding-bottom: 4px;
 }
 
 .button-1,
@@ -89,40 +94,47 @@ h1 {
 }
 
 .button-1 {
-    background-color: #3882F6;
+    background-color: #3a6915;
 }
 
 .block-2 {
     display: flex;
     flex-direction: column;
-    padding-left: 144px;
-    padding-right: 144px;
+    padding: 72px 288px;
+    gap: 16px;
+    background-color:  #f2ffe4;
 }
 
 h2 {
-    color: #1F2937;
+    color: #0a2c01;
     font-size: 36px;
     font-weight: 900;
+
+}
+
+.p7 {
+    font-size: 24px;
+    color:  #0a2c01;
 }
 
 .top-block-2 {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 8px;
     padding: 12px;
 }
 
 .bottom-block-2 {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: start;
     gap: 40px;
-    padding-bottom: 72px;
 }
 
 .image-block-2 {
     border-radius: 8px;
-    border: 1px solid #3882F6;
 }
 
 .image-1,
@@ -131,20 +143,21 @@ h2 {
 .image-4 {
     display: flex;
     flex-direction: column;
-    gap: 4px;
+    gap: 8px;
     width: 200px;
 }
 
 .p2 {
-    color: #1F2937;
+    color: #0a2c01;
     text-align: center;
+    padding-bottom: 4px
 }
 
 .block-3 {
     display: flex;
     flex-direction: column;
     gap: 4px;
-    background-color: #E5E7EB;
+    background-color: #b2cd95;
     padding: 72px 288px;
 }
 
@@ -169,18 +182,14 @@ h2 {
     border-radius: 8px;
     margin: 72px 144px;
     padding: 36px 72px;
-    background-color: #3882F6;
-    color: white;
-}
-
-h3 {
-    margin: 0px;
+    background-color: #3a6915;
+    color: #f2ffe4;
 }
 
 .right-block-4 {
     display: flex;
     flex-direction: column;
-    gap: 4px;
+    gap: 8px;
 }
 
 .button-2 {
@@ -191,6 +200,6 @@ h3 {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #E5E7EB;
+    color: #f2ffe4;
     padding: 24px;
 }
